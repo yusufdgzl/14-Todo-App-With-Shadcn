@@ -47,7 +47,8 @@ export default function Home() {
   function handlerEditTodo(item) {
   //  setSelectedTodo(item);
   
-   
+  const enteredTodo = todoRef.current.value;
+
   }
 
   
