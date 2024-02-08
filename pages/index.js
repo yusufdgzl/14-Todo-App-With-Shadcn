@@ -46,11 +46,8 @@ export default function Home() {
 
   function handlerEditTodo(item) {
   //  setSelectedTodo(item);
-  
    
   }
-
-  
 
   return (
     <div className="flex flex-col bg-[#000000] w-full h-screen items-center  text-white">
