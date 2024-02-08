@@ -13,8 +13,7 @@ export default function Home() {
   ]);
 
   const [selectedTodo,setSelectedTodo] = useState('')
-
-
+// YUSUF DG
   const [alertDestructive, setAlertDestructive] = useState(false);
   const [alertSuccess, setAlertSuccess] = useState(false);
 
@@ -78,7 +77,7 @@ export default function Home() {
           className=" w-3/6 text-black text-xl"
           placeholder="Please entered a todo..."
         />
-        <Button onClick={handlerAddTodo}>Add</Button>
+        <Button onClick={handlerAddTodo}>addd</Button>
       </form>
       <div className=" w-3/6  shadow-[0_0_10px_0_white] bg-slate-800  p-10 space-y-6 rounded-md max-h-[55%] overflow-y-scroll  ">
         {todos.map((item, index) => (
